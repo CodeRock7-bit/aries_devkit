@@ -1,0 +1,12 @@
+# Python build artifacts
+*.pyc
+__pycache__/
+
+# Log & Robotics data files
+*.log
+*.bag
+*.db3
+
+# ROS 2 Build directories
+build/
+install/
