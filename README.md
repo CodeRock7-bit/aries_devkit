@@ -18,3 +18,7 @@ SCRIPT 2 : git_summary
 TO RUN --
 	bash-
 	./git_summary.sh
+
+## Requirements
+- Ubuntu 22.04 LTS
+- ROS 2 Humble
