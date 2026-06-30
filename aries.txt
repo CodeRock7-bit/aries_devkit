@@ -1,0 +1,43 @@
+daksh@daksh-IdeaPad-Slim-5-16IMH9:~$ pwd
+/home/daksh
+daksh@daksh-IdeaPad-Slim-5-16IMH9:~$ mkdir -p aries_devkit/scripts aries_devkit/docs
+daksh@daksh-IdeaPad-Slim-5-16IMH9:~$ ls
+aries_devkit  Documents  Public        Videos
+bipedal_ws    Downloads  snap
+biped_ws      Music      Templates
+Desktop       Pictures   test_box.sdf
+daksh@daksh-IdeaPad-Slim-5-16IMH9:~$ rm -r aries_devkit
+daksh@daksh-IdeaPad-Slim-5-16IMH9:~$ ls
+bipedal_ws  Documents  Pictures  Templates
+biped_ws    Downloads  Public    test_box.sdf
+Desktop     Music      snap      Videos
+daksh@daksh-IdeaPad-Slim-5-16IMH9:~$ 
+daksh@daksh-IdeaPad-Slim-5-16IMH9:~$ ls
+bipedal_ws  Documents  Pictures  Templates
+biped_ws    Downloads  Public    test_box.sdf
+Desktop     Music      snap      Videos
+daksh@daksh-IdeaPad-Slim-5-16IMH9:~$ mkdir aries_submission
+daksh@daksh-IdeaPad-Slim-5-16IMH9:~$ ls
+aries_submission  Documents  Public        Videos
+bipedal_ws        Downloads  snap
+biped_ws          Music      Templates
+Desktop           Pictures   test_box.sdf
+daksh@daksh-IdeaPad-Slim-5-16IMH9:~$ cd aries_submission
+daksh@daksh-IdeaPad-Slim-5-16IMH9:~/aries_submission$ pwd
+/home/daksh/aries_submission
+daksh@daksh-IdeaPad-Slim-5-16IMH9:~/aries_submission$ mkdir -p aries_devkit/scripts/ aries_devkit/docs/ 
+daksh@daksh-IdeaPad-Slim-5-16IMH9:~/aries_submission$ ls
+aries_devkit
+daksh@daksh-IdeaPad-Slim-5-16IMH9:~/aries_submission$ cd aries_devkit
+daksh@daksh-IdeaPad-Slim-5-16IMH9:~/aries_submission/aries_devkit$ ls
+docs  scripts
+daksh@daksh-IdeaPad-Slim-5-16IMH9:~/aries_submission/aries_devkit$ cd ..
+daksh@daksh-IdeaPad-Slim-5-16IMH9:~/aries_submission$ cd aries_devkit
+daksh@daksh-IdeaPad-Slim-5-16IMH9:~/aries_submission/aries_devkit$ touch README.md
+daksh@daksh-IdeaPad-Slim-5-16IMH9:~/aries_submission/aries_devkit$ ls -lh
+total 8.0K
+drwxrwxr-x 2 daksh daksh 4.0K Jun 24 23:31 docs
+-rw-rw-r-- 1 daksh daksh    0 Jun 24 23:32 README.md
+drwxrwxr-x 2 daksh daksh 4.0K Jun 24 23:31 scripts
+daksh@daksh-IdeaPad-Slim-5-16IMH9:~/aries_submission/aries_devkit$ find . -name '*.md'
+./README.md
